@@ -1,44 +1,122 @@
-# task-buddy
+# Task Buddy – Web Technologies Assignment
 
-This template should help get you started developing with Vue 3 in Vite.
+## Student Information
 
-## Recommended IDE Setup
+Name: Nadette Mfuranzima
+ID:22831
+Course: Web Technologies and Internet 
+Assignment: Task Buddy Application
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+---
 
-## Recommended Browser Setup
+## Project Description
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+Task Buddy is a simple task management web application built using **Vue 3**.
+The application allows users to manage their daily tasks by adding, completing, and deleting tasks.
 
-## Customize configuration
+This project demonstrates the use of **Vue components, Vue Router, and Pinia state management**.
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+---
 
-## Project Setup
+## Features
 
-```sh
+* Add new tasks
+* Delete tasks
+* Mark tasks as completed
+* View all tasks
+* Welcome page
+* About page
+* 404 Not Found page
+
+---
+
+## Technologies Used
+
+* Vue 3
+* Vite
+* Vue Router
+* Pinia
+* HTML
+* CSS
+* JavaScript
+
+---
+
+## Project Structure
+
+src
+│
+├── assets
+│   └── main.css
+│
+├── components
+│   └── TaskCard.vue
+│
+├── router
+│   └── index.js
+│
+├── stores
+│   └── tasks.js
+│
+├── views
+│   ├── WelcomeView.vue
+│   ├── DashboardView.vue
+│   ├── AboutView.vue
+│   └── NotFound.vue
+│
+├── App.vue
+└── main.js
+
+---
+
+## Installation
+
+Clone the repository:
+
+git clone https://github.com/Nadette-13/task-buddy-Assignment-22831-web-tech.git
+
+Go into the project folder:
+
+cd task-buddy-Assignment-22831-web-tech
+
+Install dependencies:
+
 npm install
-```
 
-### Compile and Hot-Reload for Development
+Run the development server:
 
-```sh
 npm run dev
-```
 
-### Compile and Minify for Production
+Open the application in your browser:
 
-```sh
-npm run build
-```
+http://localhost:5173
 
-### Lint with [ESLint](https://eslint.org/)
+---
 
-```sh
-npm run lint
-```
+## Application Pages
+
+### Welcome Page
+
+The landing page of the application with navigation to the dashboard.
+
+### Dashboard
+
+Allows users to:
+
+* Add tasks
+* Delete tasks
+* Mark tasks as completed
+
+### About Page
+
+Provides information about the application.
+
+### 404 Page
+
+Displays a message when a page does not exist.
+
+---
+
+## Author
+
+Nadette Mfuranzima
